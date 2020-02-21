@@ -78,16 +78,6 @@ know that an error has occurred.
 ### HVR Agent Plugin
 In HVR we use the Agent Plugin to call our script. In this example we named the script `callTalendCloud.bat`
 
-![](./img/hvr_agent_plugin.jpg)
-
-The value in the `UserArgument` is referenced in the above code by the `%4%`. This way a user
-can pass in the name of the Talend Cloud Job and it will be executed in this instance with the HVR
-process is at `integ_end`
-
-
-
-
-
 ### License
 MIT - <http://www.opensource.org/licenses/mit-license.php
 

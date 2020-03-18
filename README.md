@@ -20,12 +20,14 @@ The following parameters can be used with the executable
 | -te,--tokenenv \<arg> | Talend Cloud Token in Environment Variable
 | -w,--wait | Will block any other commands from executing until Talend job is completed
 | -e,--environment \<arg> | The environment the job is in. If not used name will be `default`
-| -cv,--contextvariables \<arg> | Context Variables to pass. EX: name1=value1;name2=value2
 | -hm,--hvrmanifest \<arg> | Directory path to the HVR Manifest files
 | -tm,--tlndmanifest \<arg> | File path to the Talend Manifest file
 | -v,--version | Product Version
 
 
+# HVR Manifest Script
+The manifestagent.py script needs to be placed in the <$HVR_HOME>\lib\agent. It is recommended that the original
+manifestagent.py script either be renamed or backed up.
 
 # HVR Example
 In working in conjuction with HVR to integrate their CDC platform to Talend Cloud we utilized the following script. The tcli executable
